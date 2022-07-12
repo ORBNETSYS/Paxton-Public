@@ -9,4 +9,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Added: Door state polling instead of SignalR
 - Update: Added new door icons for Open Locked Alarm, Open Unlocked Alarm, Close Locked Alarm and Closed Unlocked Alarm.
 - Fix: Polling the last 3000 events instead of the last 100 events every second.
+- Fix: Fixed System Properties (IP, Username, Password) only getting updated after an Event Server restart
 - Removed: SignalR for state changes
